@@ -14,9 +14,13 @@ $ cp PhoenixShell/bashrc .bashrc
 
 ```
 `ls` = This runs `ls -lh --color=auto` (default ls alias has been commented out"
+
 `update` = This auto runs `sudo apt update`
+
 `upgrade` = This auto runs `sudo apt update && sudo apt upgrade`
+
 `lscontainers` = This runs `docker ps`
+
 `..` and `cd..` = These both alias to `cd ..`
 
 # TMUX
