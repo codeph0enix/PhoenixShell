@@ -75,7 +75,7 @@ esac
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
-    alias ls='ls --color=auto'
+    #alias ls='ls --color=auto'
     #alias dir='dir --color=auto'
     #alias vdir='vdir --color=auto'
 
@@ -141,5 +141,9 @@ export NVM_DIR="$HOME/.nvm"
 
 #Custom Aliases
 
-alias update="sudo apt update && sudo apt upgrade"
+alias ls='ls -lh --color=auto'
+alias update="sudo apt update"
+alias upgrade="sudo apt update && sudo apt upgrade"
 alias lscontainers="docker ps"
+alias cd..="cd .."
+alias ..="cd .."
