@@ -139,16 +139,23 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
+#Check for TMUX variable, if not found, starts tmux default session
+
 if [[ -z "$TMUX" ]]; then
   tmux attach || tmux new-session
 fi
 
-#Custom Aliases
+### Custom Aliases
 
+#ls Aliases
 alias ls='ls -lh --color=auto'
+alias lscontainers="docker ps"
+
+#apt Aliases
 alias update="sudo apt update"
 alias upgrade="sudo apt update && sudo apt upgrade"
-alias lscontainers="docker ps"
+
+#cd Aliases
 alias cd..="cd .."
 alias ..="cd .."
 alias ...="cd ../.."
