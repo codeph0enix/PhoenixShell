@@ -7,10 +7,10 @@ Includes my custom aliases for Debian Based systems.
 To Replace (And Backup) your current bashrc file use the below commands
 
 ```
-$ cd
-$ mv .bashrc .bashrc.old
-$ git clone --single-brach https://github.com/codeph0enix/PhoenixShell
-$ cp PhoenixShell/bashrc .bashrc
+cd
+mv .bashrc .bashrc.old
+git clone --single-brach https://github.com/codeph0enix/PhoenixShell
+cp PhoenixShell/bashrc .bashrc
 
 ```
 `ls` = This runs `ls -lh --color=auto` (default ls alias has been commented out"
@@ -29,8 +29,8 @@ Currently very little here - I am using @gpakosz TMUX configuration. I plan to m
 If you do pull from here use the following commands
 
 ```
-$ cd
-$ git clone --single-branch https://github.com/codeph0enix/PhoenixShell
-$ ln -s -f PhoenixShell/.tmux.conf
-$ cp PhoenixShell/.tmux.conf.local .
+cd
+git clone --single-branch https://github.com/codeph0enix/PhoenixShell
+ln -s -f PhoenixShell/.tmux.conf
+cp PhoenixShell/.tmux.conf.local .
 ```
