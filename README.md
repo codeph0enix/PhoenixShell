@@ -1,13 +1,13 @@
 # PhoenixShell
 This repo is just for my custom linux files and configurations.
 
-#Bashrc
+# Bashrc
 Includes my custom aliases for Debian Based systems.
 
-update = This auto runs sudo apt update && sudo apt upgrade
-lscontainers = This runs docker ps
+`update` = This auto runs sudo apt update && sudo apt upgrade
+`lscontainers` = This runs docker ps
 
-#TMUX
+# TMUX
 Currently very little here - I am using @gpakosz TMUX configuration. I plan to make some custom modifications and for now recommend pulling from his repo.
 
 If you do pull from here use the following commands
