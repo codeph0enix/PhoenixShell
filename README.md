@@ -2,7 +2,7 @@
 This repo is just for my custom linux files and configurations.
 
 # Bashrc
-Includes my custom aliases for Debian Based systems.
+Includes my custom aliases for Debian Based systems and does a check for if TMUX is running - if not running launches TMUX.
 
 To Replace (And Backup) your current bashrc file use the below commands
 
