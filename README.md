@@ -23,6 +23,7 @@ $ cp PhoenixShell/bashrc .bashrc
 
 `..` and `cd..` = These both alias to `cd ..`
 
+`...` and `....` = cd up 2 or 3 levels
 # TMUX
 Currently very little here - I am using @gpakosz TMUX configuration. I plan to make some custom modifications and for now recommend pulling from his repo.
 
