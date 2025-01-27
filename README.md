@@ -32,6 +32,6 @@ If you do pull from here use the following commands
 ```
 cd
 git clone --single-branch https://github.com/codeph0enix/PhoenixShell
-ln -s -f PhoenixShell/.tmux.conf
+ln -s -f PhoenixShell/tmux.conf .tmux.conf
 cp PhoenixShell/tmux.conf.local .tmux.conf.local
 ```
