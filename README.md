@@ -11,6 +11,7 @@ cd
 mv .bashrc .bashrc.old
 git clone --single-branch https://github.com/codeph0enix/PhoenixShell
 cp PhoenixShell/bashrc .bashrc
+source .bashrc
 
 ```
 `ls` = This runs `ls -lh --color=auto` (default ls alias has been commented out"
