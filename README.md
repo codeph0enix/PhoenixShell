@@ -9,7 +9,7 @@ To Replace (And Backup) your current bashrc file use the below commands
 ```
 cd
 mv .bashrc .bashrc.old
-git clone --single-brach https://github.com/codeph0enix/PhoenixShell
+git clone --single-branch https://github.com/codeph0enix/PhoenixShell
 cp PhoenixShell/bashrc .bashrc
 
 ```
