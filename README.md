@@ -1,5 +1,5 @@
 # PhoenixShell
-This is a project by me for automating my default shell for use on any system. Currently includes my default .bashrc, tmux profile, and starship configuration.
+This is a project created for automating my default shell for use on any system. Currently includes my default .bashrc, tmux profile, and starship configuration.
 
 Eventually this will include custom scripts for sysadmin tasks and installing the standard packages I load on all machines.
 
