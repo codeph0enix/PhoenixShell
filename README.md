@@ -39,6 +39,8 @@ I use Starship for my Windows Terminal profile for Powershell and all my WSL pro
 
 Credit to Christian Lempa for the template I originally modified.
 
+Any NerdFont should work fine, I personally use JetBrainsMono Nerd Font
+
 You can comment the `eval "$(starship init bash)" ` line if you do not want to use it.
 
 ## Steps for installing Starship
