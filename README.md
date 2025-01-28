@@ -33,3 +33,11 @@ Includes my custom aliases for Debian Based systems and does a check for if TMUX
 Currently I am using @gpakosz TMUX configuration. I plan to make some custom modifications and for now recommend pulling from his repo.
 
 The included bashrc file does auto launch tmux using my preferred layout, including a small htop pane.
+
+# Starship
+I use Starship for my Windows Terminal profile for Powershell and all my WSL profiles. By default, the BASHRC file is configured for Starship.
+
+You can comment the `eval "$(starship init bash)" ` line if you do not want to use it.
+
+## Steps for installing Starship
+
