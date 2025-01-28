@@ -1,6 +1,8 @@
 # PhoenixShell
 This repo is just for my custom linux files and configurations.
 
+To use my custom bashrc and tmux config follow these commands:
+
 ```
 cd
 mv .bashrc .bashrc.old
@@ -14,8 +16,6 @@ source .bashrc
 
 # Bashrc
 Includes my custom aliases for Debian Based systems and does a check for if TMUX is running - if not running launches TMUX.
-
-To Replace (And Backup) your current bashrc file use the below commands
 
 
 `ls` = This runs `ls -lh --color=auto` (default ls alias has been commented out"
@@ -33,7 +33,3 @@ To Replace (And Backup) your current bashrc file use the below commands
 Currently I am using @gpakosz TMUX configuration. I plan to make some custom modifications and for now recommend pulling from his repo.
 
 The included bashrc file does auto launch tmux using my preferred layout, including a small htop pane.
-
-If you do pull from here use the following commands
-
-
