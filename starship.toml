@@ -23,6 +23,8 @@ Windows = "  "
 Arch = "󰣇 "
 Ubuntu = " "
 Debian = " "
+Fedora = " "
+
 
 # Shows the username
 [username]
