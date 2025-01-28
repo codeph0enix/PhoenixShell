@@ -37,7 +37,13 @@ The included bashrc file does auto launch tmux using my preferred layout, includ
 # Starship
 I use Starship for my Windows Terminal profile for Powershell and all my WSL profiles. By default, the BASHRC file is configured for Starship.
 
+Credit to Christian Lempa for the template I originally modified.
+
 You can comment the `eval "$(starship init bash)" ` line if you do not want to use it.
 
 ## Steps for installing Starship
 
+1.  Run `curl -sS https://starship.rs/install.sh | sh`
+2.  Should prompt to confirm install
+3.  Starship should now run on startup
+4.  Run `cp PhoenixShell/starship.toml ~/.config/starship.toml`
