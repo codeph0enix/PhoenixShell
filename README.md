@@ -25,7 +25,9 @@ cp PhoenixShell/bashrc .bashrc
 
 `...` and `....` = cd up 2 or 3 levels
 # TMUX
-Currently very little here - I am using @gpakosz TMUX configuration. I plan to make some custom modifications and for now recommend pulling from his repo.
+Currently I am using @gpakosz TMUX configuration. I plan to make some custom modifications and for now recommend pulling from his repo.
+
+The included bashrc file does auto launch tmux using my preferred layout, including a small htop pane.
 
 If you do pull from here use the following commands
 
@@ -34,4 +36,5 @@ cd
 git clone --single-branch https://github.com/codeph0enix/PhoenixShell
 ln -s -f PhoenixShell/tmux.conf .tmux.conf
 cp PhoenixShell/tmux.conf.local .tmux.conf.local
+cp PhoenixShell/tmuxlayout.sh .tmuxlayout.sh
 ```

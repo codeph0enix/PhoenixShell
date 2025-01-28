@@ -142,7 +142,8 @@ export NVM_DIR="$HOME/.nvm"
 #Check for TMUX variable, if not found, starts tmux default session
 
 if [[ -z "$TMUX" ]]; then
-  tmux attach || tmux new-session
+  #tmux attach || tmux new-session
+  ~/.tmuxlayout.sh
 fi
 
 ### Custom Aliases
