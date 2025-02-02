@@ -1,4 +1,4 @@
-me of the session
+#Name of the session
 SESSION_NAME="default"
 
 # Check if the session already exists
